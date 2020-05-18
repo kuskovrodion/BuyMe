@@ -1,0 +1,6 @@
+framework module Pods_BuyMe {
+  umbrella header "Pods-BuyMe-umbrella.h"
+
+  export *
+  module * { export * }
+}

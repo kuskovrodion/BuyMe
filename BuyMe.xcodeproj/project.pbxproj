@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150343CA3EA4AB5B8412F0CA /* Pods_BuyMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B432494E9426F215C7AC2DE7 /* Pods_BuyMeTests.framework */; };
 		22A888C124730CC200EF4BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A888C024730CC200EF4BAB /* AppDelegate.swift */; };
 		22A888C324730CC200EF4BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A888C224730CC200EF4BAB /* SceneDelegate.swift */; };
 		22A888C524730CC200EF4BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A888C424730CC200EF4BAB /* ContentView.swift */; };
@@ -14,6 +15,8 @@
 		22A888CA24730CC600EF4BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A888C924730CC600EF4BAB /* Preview Assets.xcassets */; };
 		22A888CD24730CC600EF4BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A888CB24730CC600EF4BAB /* LaunchScreen.storyboard */; };
 		22A888D824730CC600EF4BAB /* BuyMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A888D724730CC600EF4BAB /* BuyMeTests.swift */; };
+		22A888E324730CFC00EF4BAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22A888E224730CFC00EF4BAB /* GoogleService-Info.plist */; };
+		3FB29F2E03865E292012A75B /* Pods_BuyMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F356D95060B252195D22AE3 /* Pods_BuyMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,13 @@
 		22A888D324730CC600EF4BAB /* BuyMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A888D724730CC600EF4BAB /* BuyMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyMeTests.swift; sourceTree = "<group>"; };
 		22A888D924730CC600EF4BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A888E224730CFC00EF4BAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29FC3B90929A2BF867360C12 /* Pods-BuyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyMe.release.xcconfig"; path = "Target Support Files/Pods-BuyMe/Pods-BuyMe.release.xcconfig"; sourceTree = "<group>"; };
+		3ABE9394182056AD43B248C9 /* Pods-BuyMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyMeTests.debug.xcconfig"; path = "Target Support Files/Pods-BuyMeTests/Pods-BuyMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F356D95060B252195D22AE3 /* Pods_BuyMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B432494E9426F215C7AC2DE7 /* Pods_BuyMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA77C4AEB58999C56798CA3 /* Pods-BuyMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyMeTests.release.xcconfig"; path = "Target Support Files/Pods-BuyMeTests/Pods-BuyMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2546967069484766D48B312 /* Pods-BuyMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyMe.debug.xcconfig"; path = "Target Support Files/Pods-BuyMe/Pods-BuyMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB29F2E03865E292012A75B /* Pods_BuyMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150343CA3EA4AB5B8412F0CA /* Pods_BuyMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,8 @@
 				22A888BF24730CC200EF4BAB /* BuyMe */,
 				22A888D624730CC600EF4BAB /* BuyMeTests */,
 				22A888BE24730CC200EF4BAB /* Products */,
+				DCDC3B3BB892EB65A72ED9B9 /* Pods */,
+				9CE05C4AAA13624B5F1311CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +99,7 @@
 				22A888C624730CC600EF4BAB /* Assets.xcassets */,
 				22A888CB24730CC600EF4BAB /* LaunchScreen.storyboard */,
 				22A888CE24730CC600EF4BAB /* Info.plist */,
+				22A888E224730CFC00EF4BAB /* GoogleService-Info.plist */,
 				22A888C824730CC600EF4BAB /* Preview Content */,
 			);
 			path = BuyMe;
@@ -107,6 +122,27 @@
 			path = BuyMeTests;
 			sourceTree = "<group>";
 		};
+		9CE05C4AAA13624B5F1311CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F356D95060B252195D22AE3 /* Pods_BuyMe.framework */,
+				B432494E9426F215C7AC2DE7 /* Pods_BuyMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCDC3B3BB892EB65A72ED9B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2546967069484766D48B312 /* Pods-BuyMe.debug.xcconfig */,
+				29FC3B90929A2BF867360C12 /* Pods-BuyMe.release.xcconfig */,
+				3ABE9394182056AD43B248C9 /* Pods-BuyMeTests.debug.xcconfig */,
+				BCA77C4AEB58999C56798CA3 /* Pods-BuyMeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A888DC24730CC600EF4BAB /* Build configuration list for PBXNativeTarget "BuyMe" */;
 			buildPhases = (
+				B51B046342D937846C599137 /* [CP] Check Pods Manifest.lock */,
 				22A888B924730CC200EF4BAB /* Sources */,
 				22A888BA24730CC200EF4BAB /* Frameworks */,
 				22A888BB24730CC200EF4BAB /* Resources */,
+				646CD7CDE68341C2FED10907 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A888DF24730CC600EF4BAB /* Build configuration list for PBXNativeTarget "BuyMeTests" */;
 			buildPhases = (
+				C4CC742ACD5A3832712E2EF2 /* [CP] Check Pods Manifest.lock */,
 				22A888CF24730CC600EF4BAB /* Sources */,
 				22A888D024730CC600EF4BAB /* Frameworks */,
 				22A888D124730CC600EF4BAB /* Resources */,
@@ -189,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A888CD24730CC600EF4BAB /* LaunchScreen.storyboard in Resources */,
+				22A888E324730CFC00EF4BAB /* GoogleService-Info.plist in Resources */,
 				22A888CA24730CC600EF4BAB /* Preview Assets.xcassets in Resources */,
 				22A888C724730CC600EF4BAB /* Assets.xcassets in Resources */,
 			);
@@ -202,6 +242,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		646CD7CDE68341C2FED10907 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyMe/Pods-BuyMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyMe/Pods-BuyMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuyMe/Pods-BuyMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B51B046342D937846C599137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4CC742ACD5A3832712E2EF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22A888B924730CC200EF4BAB /* Sources */ = {
@@ -360,6 +464,7 @@
 		};
 		22A888DD24730CC600EF4BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2546967069484766D48B312 /* Pods-BuyMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +485,7 @@
 		};
 		22A888DE24730CC600EF4BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FC3B90929A2BF867360C12 /* Pods-BuyMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +506,7 @@
 		};
 		22A888E024730CC600EF4BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABE9394182056AD43B248C9 /* Pods-BuyMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +529,7 @@
 		};
 		22A888E124730CC600EF4BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA77C4AEB58999C56798CA3 /* Pods-BuyMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

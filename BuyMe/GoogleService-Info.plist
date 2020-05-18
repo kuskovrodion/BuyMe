@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>696793890557-4m8oanja8nob04g34urp2l0gtg9vtsit.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.696793890557-4m8oanja8nob04g34urp2l0gtg9vtsit</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDcaPzbt6-MauveaS6Zhl8Kn9jU5mNMUg8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>696793890557</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>rodionkuskov.BuyMe</string>
+	<key>PROJECT_ID</key>
+	<string>buy-me-599c0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>buy-me-599c0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:696793890557:ios:4c9e1a46240cde20034894</string>
+	<key>DATABASE_URL</key>
+	<string>https://buy-me-599c0.firebaseio.com</string>
+</dict>
+</plist>
