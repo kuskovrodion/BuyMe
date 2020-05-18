@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='BuyMeTests.xctest' tests='2' failures='1'>
+  <testsuite name='BuyMeTests.BuyMeTests' tests='2' failures='1'>
+    <testcase classname='BuyMeTests.BuyMeTests' name='testExample'>
+      <failure message='XCTAssertEqual failed: (&quot;zxc&quot;) is not equal to (&quot;asd&quot;)'>BuyMeTests/BuyMeTests.swift:24</failure>
+    </testcase>
+    <testcase classname='BuyMeTests.BuyMeTests' name='testPerformanceExample' time='0.300'/>
+  </testsuite>
+</testsuites>
